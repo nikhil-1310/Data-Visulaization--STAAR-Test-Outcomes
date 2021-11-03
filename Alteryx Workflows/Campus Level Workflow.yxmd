@@ -1,0 +1,1208 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2012-2021 Dallas County Only CSTAAR.xlsx
+Query=`Dallas County CSTAAR RAW$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="County ID" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="County Name" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="District ID" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="District Name" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="Campus ID" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="Campus Name" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="Charter Flag" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="Year" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="Grade" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="Subject" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="Measure" size="255" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="V_String" />
+            <Field name="All" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="Non-EcoDis" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="EcoDis" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="Hispanic" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="Black" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="White" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="Asian" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="ELL" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="Non-ELL" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="Male" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="Female" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+            <Field name="SPED" source="File: N:\Data Viz\2012-2021 Dallas County Only CSTAAR.xlsx|||`Dallas County CSTAAR RAW$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2012-2021 Tarrant County Only CSTAAR.xlsx
+Query=`Tarrant County RAW$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="County ID" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="County Name" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="District ID" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="District Name" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="Campus ID" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="Campus Name" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="Charter Flag" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="Year" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="Grade" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="Subject" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="Measure" size="255" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="V_String" />
+            <Field name="All" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="Non-EcoDis" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="EcoDis" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="Hispanic" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="Black" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="White" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="Asian" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="ELL" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="Non-ELL" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="Male" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="Female" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+            <Field name="SPED" source="File: N:\Data Viz\2012-2021 Tarrant County Only CSTAAR.xlsx|||`Tarrant County RAW$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Campus ID" action="GroupBy" rename="Campus ID" />
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Grade" action="GroupBy" rename="Grade" />
+            <SummarizeField field="Subject" action="GroupBy" rename="Subject" />
+            <SummarizeField field="All" action="Sum" rename="Passed" />
+            <SummarizeField field="EcoDis" action="Sum" rename="EcoDis Passed" />
+            <SummarizeField field="Hispanic" action="Sum" rename="Hisp Passed" />
+            <SummarizeField field="Black" action="Sum" rename="Black Passed" />
+            <SummarizeField field="White" action="Sum" rename="White Passed" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Measure</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-09-18 10:09:00</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Meets</Operand>
+              <StartDate>2021-09-18 10:09:00</StartDate>
+              <EndDate>2021-09-18 10:09:00</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Measure] = "Meets"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Campus ID" action="GroupBy" rename="Campus ID" />
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Grade" action="GroupBy" rename="Grade" />
+            <SummarizeField field="Subject" action="GroupBy" rename="Subject" />
+            <SummarizeField field="All" action="Sum" rename="Test Takers" />
+            <SummarizeField field="EcoDis" action="Sum" rename="EcoDis Test Takers" />
+            <SummarizeField field="Hispanic" action="Sum" rename="Hisp Test Takers" />
+            <SummarizeField field="Black" action="Sum" rename="Black Test Takers" />
+            <SummarizeField field="White" action="Sum" rename="White Test Takers" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Campus ID" />
+            <Field field="Grade" />
+            <Field field="Subject" />
+            <Field field="Year" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Campus ID" />
+            <Field field="Grade" />
+            <Field field="Subject" />
+            <Field field="Year" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Campus ID" selected="False" rename="Right_Campus ID" input="Right_" />
+                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                <SelectField field="Right_Grade" selected="False" rename="Right_Grade" input="Right_" />
+                <SelectField field="Right_Subject" selected="False" rename="Right_Subject" input="Right_" />
+                <SelectField field="Right_Campus Name" selected="False" rename="Right_Campus Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="County Name" action="GroupBy" rename="County Name" />
+            <SummarizeField field="Campus ID" action="GroupBy" rename="Campus ID" />
+            <SummarizeField field="Charter Flag" action="GroupBy" rename="Charter Flag" />
+            <SummarizeField field="Campus Name" action="GroupBy" rename="Campus Name" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="726" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Campus ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Campus ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Campus ID" selected="True" input="Left_" />
+                <SelectField field="Left_Year" selected="True" input="Left_" />
+                <SelectField field="Left_Grade" selected="True" input="Left_" />
+                <SelectField field="Left_Subject" selected="True" input="Left_" />
+                <SelectField field="Left_Passed" selected="True" input="Left_" />
+                <SelectField field="Left_EcoDis Passed" selected="True" input="Left_" />
+                <SelectField field="Left_Hisp Passed" selected="True" input="Left_" />
+                <SelectField field="Left_Black Passed" selected="True" input="Left_" />
+                <SelectField field="Left_White Passed" selected="True" input="Left_" />
+                <SelectField field="Left_Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_EcoDis Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_Hisp Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_Black Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_White Test Takers" selected="True" input="Left_" />
+                <SelectField field="Right_County Name" selected="True" input="Right_" />
+                <SelectField field="Right_Campus ID" selected="False" rename="Right_Campus ID" input="Right_" />
+                <SelectField field="Right_Charter Flag" selected="True" input="Right_" />
+                <SelectField field="Right_Campus Name" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="846" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Campus ID" selected="True" />
+            <SelectField field="Charter Flag" selected="True" />
+            <SelectField field="Grade" selected="True" />
+            <SelectField field="Subject" selected="True" />
+            <SelectField field="Passed" selected="True" />
+            <SelectField field="EcoDis Passed" selected="True" />
+            <SelectField field="Hisp Passed" selected="True" />
+            <SelectField field="Black Passed" selected="True" />
+            <SelectField field="White Passed" selected="True" />
+            <SelectField field="Test Takers" selected="True" />
+            <SelectField field="EcoDis Test Takers" selected="True" />
+            <SelectField field="Hisp Test Takers" selected="True" />
+            <SelectField field="Black Test Takers" selected="True" />
+            <SelectField field="White Test Takers" selected="True" />
+            <SelectField field="County Name" selected="True" />
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Campus Name" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="954" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Passed]/[Test Takers]" field="Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[EcoDis Passed]/[EcoDis Test Takers]" field="EcoDis Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[Hisp Passed]/[Hisp Test Takers]" field="Hisp Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[Black Passed]/[Black Test Takers]" field="Black Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[White Passed]/[White Test Takers]" field="White Pass Rate" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Pass Rate = [Passed]/[Test Takers]
+EcoDis Pass Rate = [EcoDis Passed]/[EcoDis Te...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1086" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="County Name" selected="True" />
+            <SelectField field="Campus ID" selected="True" />
+            <SelectField field="Campus Name" selected="True" />
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Charter Flag" selected="True" />
+            <SelectField field="Grade" selected="True" />
+            <SelectField field="Subject" selected="True" />
+            <SelectField field="Passed" selected="False" />
+            <SelectField field="EcoDis Passed" selected="False" />
+            <SelectField field="Hisp Passed" selected="False" />
+            <SelectField field="Black Passed" selected="False" />
+            <SelectField field="White Passed" selected="False" />
+            <SelectField field="Test Takers" selected="True" />
+            <SelectField field="EcoDis Test Takers" selected="True" />
+            <SelectField field="Hisp Test Takers" selected="True" />
+            <SelectField field="Black Test Takers" selected="True" />
+            <SelectField field="White Test Takers" selected="True" />
+            <SelectField field="Pass Rate" selected="True" />
+            <SelectField field="EcoDis Pass Rate" selected="True" />
+            <SelectField field="Hisp Pass Rate" selected="True" />
+            <SelectField field="Black Pass Rate" selected="True" />
+            <SelectField field="White Pass Rate" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Campus ID" action="GroupBy" rename="Campus ID" />
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Grade" action="GroupBy" rename="Grade" />
+            <SummarizeField field="Subject" action="GroupBy" rename="Subject" />
+            <SummarizeField field="All" action="Sum" rename="Passed" />
+            <SummarizeField field="EcoDis" action="Sum" rename="EcoDis Passed" />
+            <SummarizeField field="Hispanic" action="Sum" rename="Hisp Passed" />
+            <SummarizeField field="Black" action="Sum" rename="Black Passed" />
+            <SummarizeField field="White" action="Sum" rename="White Passed" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Measure</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-09-18 10:09:00</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Meets</Operand>
+              <StartDate>2021-09-18 10:09:00</StartDate>
+              <EndDate>2021-09-18 10:09:00</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Measure] = "Meets"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="522" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Campus ID" action="GroupBy" rename="Campus ID" />
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="Grade" action="GroupBy" rename="Grade" />
+            <SummarizeField field="Subject" action="GroupBy" rename="Subject" />
+            <SummarizeField field="All" action="Sum" rename="Test Takers" />
+            <SummarizeField field="EcoDis" action="Sum" rename="EcoDis Test Takers" />
+            <SummarizeField field="Hispanic" action="Sum" rename="Hisp Test Takers" />
+            <SummarizeField field="Black" action="Sum" rename="Black Test Takers" />
+            <SummarizeField field="White" action="Sum" rename="White Test Takers" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="618" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Campus ID" />
+            <Field field="Grade" />
+            <Field field="Subject" />
+            <Field field="Year" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Campus ID" />
+            <Field field="Grade" />
+            <Field field="Subject" />
+            <Field field="Year" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Campus ID" selected="False" rename="Right_Campus ID" input="Right_" />
+                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
+                <SelectField field="Right_Grade" selected="False" rename="Right_Grade" input="Right_" />
+                <SelectField field="Right_Subject" selected="False" rename="Right_Subject" input="Right_" />
+                <SelectField field="Right_Campus Name" selected="False" rename="Right_Campus Name" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="County Name" action="GroupBy" rename="County Name" />
+            <SummarizeField field="Campus ID" action="GroupBy" rename="Campus ID" />
+            <SummarizeField field="Charter Flag" action="GroupBy" rename="Charter Flag" />
+            <SummarizeField field="Campus Name" action="GroupBy" rename="Campus Name" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="726" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Campus ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Campus ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Campus ID" selected="True" input="Left_" />
+                <SelectField field="Left_Year" selected="True" input="Left_" />
+                <SelectField field="Left_Grade" selected="True" input="Left_" />
+                <SelectField field="Left_Subject" selected="True" input="Left_" />
+                <SelectField field="Left_Passed" selected="True" input="Left_" />
+                <SelectField field="Left_EcoDis Passed" selected="True" input="Left_" />
+                <SelectField field="Left_Hisp Passed" selected="True" input="Left_" />
+                <SelectField field="Left_Black Passed" selected="True" input="Left_" />
+                <SelectField field="Left_White Passed" selected="True" input="Left_" />
+                <SelectField field="Left_Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_EcoDis Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_Hisp Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_Black Test Takers" selected="True" input="Left_" />
+                <SelectField field="Left_White Test Takers" selected="True" input="Left_" />
+                <SelectField field="Right_County Name" selected="True" input="Right_" />
+                <SelectField field="Right_Campus ID" selected="False" rename="Right_Campus ID" input="Right_" />
+                <SelectField field="Right_Charter Flag" selected="True" input="Right_" />
+                <SelectField field="Right_Campus Name" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="846" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Campus ID" selected="True" />
+            <SelectField field="Charter Flag" selected="True" />
+            <SelectField field="Grade" selected="True" />
+            <SelectField field="Subject" selected="True" />
+            <SelectField field="Passed" selected="True" />
+            <SelectField field="EcoDis Passed" selected="True" />
+            <SelectField field="Hisp Passed" selected="True" />
+            <SelectField field="Black Passed" selected="True" />
+            <SelectField field="White Passed" selected="True" />
+            <SelectField field="Test Takers" selected="True" />
+            <SelectField field="EcoDis Test Takers" selected="True" />
+            <SelectField field="Hisp Test Takers" selected="True" />
+            <SelectField field="Black Test Takers" selected="True" />
+            <SelectField field="White Test Takers" selected="True" />
+            <SelectField field="County Name" selected="True" />
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Campus Name" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="954" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Passed]/[Test Takers]" field="Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[EcoDis Passed]/[EcoDis Test Takers]" field="EcoDis Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[Hisp Passed]/[Hisp Test Takers]" field="Hisp Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[Black Passed]/[Black Test Takers]" field="Black Pass Rate" size="8" type="Double" />
+            <FormulaField expression="[White Passed]/[White Test Takers]" field="White Pass Rate" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Pass Rate = [Passed]/[Test Takers]
+EcoDis Pass Rate = [EcoDis Passed]/[EcoDis Te...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1086" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="County Name" selected="True" />
+            <SelectField field="Campus ID" selected="True" />
+            <SelectField field="Campus Name" selected="True" />
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Charter Flag" selected="True" />
+            <SelectField field="Grade" selected="True" />
+            <SelectField field="Subject" selected="True" />
+            <SelectField field="Passed" selected="False" />
+            <SelectField field="EcoDis Passed" selected="False" />
+            <SelectField field="Hisp Passed" selected="False" />
+            <SelectField field="Black Passed" selected="False" />
+            <SelectField field="White Passed" selected="False" />
+            <SelectField field="Test Takers" selected="True" />
+            <SelectField field="EcoDis Test Takers" selected="True" />
+            <SelectField field="Hisp Test Takers" selected="True" />
+            <SelectField field="Black Test Takers" selected="True" />
+            <SelectField field="White Test Takers" selected="True" />
+            <SelectField field="Pass Rate" selected="True" />
+            <SelectField field="EcoDis Pass Rate" selected="True" />
+            <SelectField field="Hisp Pass Rate" selected="True" />
+            <SelectField field="Black Pass Rate" selected="True" />
+            <SelectField field="White Pass Rate" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1302" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="County Name" size="255" source="Summarize: GroupBy - County Name" type="V_String" column="1" />
+                <Field name="Campus ID" size="255" source="Summarize: GroupBy - Campus ID" type="V_String" column="2" />
+                <Field name="Campus Name" size="255" source="Summarize: GroupBy - Campus Name" type="V_String" column="3" />
+                <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" column="4" />
+                <Field name="Charter Flag" size="255" source="Summarize: GroupBy - Charter Flag" type="V_String" column="5" />
+                <Field name="Grade" size="255" source="Summarize: GroupBy - Grade" type="V_String" column="6" />
+                <Field name="Subject" size="255" source="Summarize: GroupBy - Subject" type="V_String" column="7" />
+                <Field name="Test Takers" source="Summarize: Sum - All" type="Double" column="8" />
+                <Field name="EcoDis Test Takers" source="Summarize: Sum - EcoDis" type="Double" column="9" />
+                <Field name="Hisp Test Takers" source="Summarize: Sum - Hispanic" type="Double" column="10" />
+                <Field name="Black Test Takers" source="Summarize: Sum - Black" type="Double" column="11" />
+                <Field name="White Test Takers" source="Summarize: Sum - White" type="Double" column="12" />
+                <Field name="Pass Rate" source="Formula: [Passed]/[Test Takers]" type="Double" column="13" />
+                <Field name="EcoDis Pass Rate" source="Formula: [EcoDis Passed]/[EcoDis Test Takers]" type="Double" column="14" />
+                <Field name="Hisp Pass Rate" source="Formula: [Hisp Passed]/[Hisp Test Takers]" type="Double" column="15" />
+                <Field name="Black Pass Rate" source="Formula: [Black Passed]/[Black Test Takers]" type="Double" column="16" />
+                <Field name="White Pass Rate" source="Formula: [White Passed]/[White Test Takers]" type="Double" column="17" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="County Name" size="255" source="Summarize: GroupBy - County Name" type="V_String" column="1" />
+                <Field name="Campus ID" size="255" source="Summarize: GroupBy - Campus ID" type="V_String" column="2" />
+                <Field name="Campus Name" size="255" source="Summarize: GroupBy - Campus Name" type="V_String" column="3" />
+                <Field name="Year" size="255" source="Summarize: GroupBy - Year" type="V_String" column="4" />
+                <Field name="Charter Flag" size="255" source="Summarize: GroupBy - Charter Flag" type="V_String" column="5" />
+                <Field name="Grade" size="255" source="Summarize: GroupBy - Grade" type="V_String" column="6" />
+                <Field name="Subject" size="255" source="Summarize: GroupBy - Subject" type="V_String" column="7" />
+                <Field name="Test Takers" source="Summarize: Sum - All" type="Double" column="8" />
+                <Field name="EcoDis Test Takers" source="Summarize: Sum - EcoDis" type="Double" column="9" />
+                <Field name="Hisp Test Takers" source="Summarize: Sum - Hispanic" type="Double" column="10" />
+                <Field name="Black Test Takers" source="Summarize: Sum - Black" type="Double" column="11" />
+                <Field name="White Test Takers" source="Summarize: Sum - White" type="Double" column="12" />
+                <Field name="Pass Rate" source="Formula: [Passed]/[Test Takers]" type="Double" column="13" />
+                <Field name="EcoDis Pass Rate" source="Formula: [EcoDis Passed]/[EcoDis Test Takers]" type="Double" column="14" />
+                <Field name="Hisp Pass Rate" source="Formula: [Hisp Passed]/[Hisp Test Takers]" type="Double" column="15" />
+                <Field name="Black Pass Rate" source="Formula: [Black Passed]/[Black Test Takers]" type="Double" column="16" />
+                <Field name="White Pass Rate" source="Formula: [White Passed]/[White Test Takers]" type="Double" column="17" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1662" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">N:\Data Viz\Alteryx Output\Campus Data.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Campus Data.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1506" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NICOLA~1\AppData\Local\Temp\Engine_11680_41a61b51bc7a4d49993cd5ab3c500548_\Engine_18424_1e07223335c349a6b0d2df91e892eb87_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="426" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>Measure</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2021-09-22 11:20:47</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>Test Takers</Operand>
+              <StartDate>2021-09-22 11:20:47</StartDate>
+              <EndDate>2021-09-22 11:20:47</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Measure] = "Test Takers"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1302" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CSTAF 2020.xlsx
+Query=`CSTAF (2)$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CAMPUS" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSAMIFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSAMIFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSATOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSBTOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSBTOPC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSETOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSETOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSHEXPA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSHTENA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSLEXPA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSLTENA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSOTOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSPTOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSPTOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSRTOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSRTOPC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSSTOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSSTOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSSTOSA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST00FC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST00FP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST00SA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST01FC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST01FP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST01SA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST06FC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST06FP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST06SA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST11FC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST11FP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST11SA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST20FC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST20FP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPST20SA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTASFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTASFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTBAFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTBAFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTBIFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTBIFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTBLFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTBLFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTCOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTCOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTEXPA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTFEFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTFEFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTGIFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTGIFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTHIFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTHIFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTINFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTINFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTKIDR" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTMAFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTMAFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTMSFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTMSFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTNOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTNOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTOPFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTOPFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTPHFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTPHFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTPIFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTPIFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTREFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTREFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTSPFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTSPFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTTENA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTTOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTTOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTTOSA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTTWFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTTWFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTVOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTVOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTWHFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSTWHFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSUTOFC" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSUTOFP" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+            <Field name="CPSUTOSA" size="255" source="File: N:\Data Viz\CSTAF 2020.xlsx|||`CSTAF (2)$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1410" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CAMPUS" selected="True" />
+            <SelectField field="CPSAMIFP" selected="True" rename="Minority Full Time Staff" />
+            <SelectField field="CPST00SA" selected="False" rename="Teacher Base Salary" />
+            <SelectField field="CPSTBIFP" selected="True" rename="Bilingual Teacher Percent" />
+            <SelectField field="CPSTEXPA" selected="True" rename="Teacher Experience Average" />
+            <SelectField field="CPSTKIDR" selected="True" rename="Teacher Student Ratio" />
+            <SelectField field="CPSTTOSA" selected="True" rename="Total Base Salary Average" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1518" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Campus ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CAMPUS" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1662" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NICOLA~1\AppData\Local\Temp\Engine_11680_41a61b51bc7a4d49993cd5ab3c500548_\Engine_18424_e95d78c1625545f4823341a625814f22_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="False" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="False" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="41" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Join" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Group Project Workflow - Campus Data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="0fc08207-ad50-4a97-b334-d41df7d4ec8a" />
+      <Telemetry>
+        <PreviousWorkflowId value="850d288a-a8cc-4a39-8007-320c6692bdbf" />
+        <OriginWorkflowId value="850d288a-a8cc-4a39-8007-320c6692bdbf" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
